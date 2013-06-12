@@ -7,7 +7,6 @@
         <!--Navigation Controller-->
         <scene sceneID="wJB-i6-Ngr">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CYt-2P-IRh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController definesPresentationContext="YES" id="Znf-do-CHO" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2aB-N1-rz6">
@@ -17,13 +16,13 @@
                         <segue destination="f21-oI-3d1" kind="relationship" relationship="rootViewController" id="X42-yf-XyO"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CYt-2P-IRh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1050" y="-347"/>
         </scene>
         <!--View Controller - iOS 7 Features-->
         <scene sceneID="bhE-9n-c4m">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BoM-DH-fF4" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="f21-oI-3d1" customClass="ViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="0Zz-6u-eyP">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
@@ -67,6 +66,7 @@
                         <segue destination="rbJ-8g-4ux" kind="push" identifier="Text to Speach" id="Ebg-2p-RBh"/>
                     </connections>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BoM-DH-fF4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-600" y="-347"/>
         </scene>
@@ -90,11 +90,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LYX-4T-h0g">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="The new text to speach api's that are in iOS 7 are awesome." translatesAutoresizingMaskIntoConstraints="NO" id="LYX-4T-h0g">
                                 <rect key="frame" x="40" y="20" width="240" height="323"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>

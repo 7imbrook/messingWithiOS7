@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TTSViewController.h
 //  MessingWith7
 //
 //  Created by Michael Timbrook on 6/11/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
+@interface TTSViewController : UIViewController
 
 @end

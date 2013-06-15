@@ -101,4 +101,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+/**
+ * Do the talking
+ */
+- (IBAction)talk:(id)sender
+{
+    AVSpeechSynthesizer *talker = [[AVSpeechSynthesizer alloc] init];
+    AVSpeechUtterance *sayit = [AVSpeechUtterance speechUtteranceWithString:_input.text];
+    [talker speakUtterance:sayit];
+}
+
 @end
